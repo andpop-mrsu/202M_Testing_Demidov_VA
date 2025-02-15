@@ -1,0 +1,10 @@
+# Позитивное тестирование:
+(3, 3, 3) -> "equilateral"
+(4, 4, 6) -> "isosceles"
+(5, 7, 9) -> "nonequilateral"
+
+# Негативное тестирование:
+(0, 3, 3) -> IncorrectTriangleSides
+(-1, 3, 3) -> IncorrectTriangleSides
+(3, 3, 7) -> IncorrectTriangleSides
+(1, 2, 3) -> IncorrectTriangleSides
